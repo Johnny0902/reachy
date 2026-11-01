@@ -1,0 +1,15 @@
+.venv/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+datasets/
+outputs/
+*.blend1
+unity/ReachyPourTeleop/Library/
+unity/ReachyPourTeleop/Logs/
+unity/ReachyPourTeleop/Temp/
+unity/ReachyPourTeleop/UserSettings/
+unity/ReachyPourTeleop/obj/
+.DS_Store

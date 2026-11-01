@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lerobot_teleoperator_reachy2023"
+version = "0.1.0"
+description = "LeRobot teleoperator plugin for Reachy 2023 Quest 2 teleoperation."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["lerobot_teleoperator_reachy2023*"]

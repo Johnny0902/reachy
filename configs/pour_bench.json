@@ -1,0 +1,50 @@
+{
+  "comment": "Reachy frame: +X forward, +Y to the robot's left, +Z up, meters, origin between the shoulders. Measure the real robot and edit the numbers before recording. Blender and the practice demonstrator both read this file.",
+  "task_en": "Pick up the beaker, pour the objects into the tray, and put the beaker down.",
+  "task_zh": "拿起烧杯，把里面的物体倒进托盘，再把烧杯放下。",
+  "arm": "right",
+  "fps": 15,
+  "table": {
+    "size_xyz": [0.7, 0.5, 0.03],
+    "top_center": [0.34, -0.18, -0.3]
+  },
+  "beaker": {
+    "outer_radius": 0.035,
+    "inner_radius": 0.028,
+    "height": 0.095,
+    "xy": [0.3, -0.14]
+  },
+  "tray": {
+    "size_xyz": [0.14, 0.11, 0.015],
+    "xy": [0.3, -0.22]
+  },
+  "beads": {
+    "count": 8,
+    "radius": 0.006
+  },
+  "cameras": {
+    "table": {
+      "eye": [0.16, -0.48, -0.05],
+      "target": [0.31, -0.18, -0.26],
+      "fov_y_deg": 48
+    },
+    "head": {
+      "eye": [0.05, 0.02, 0.08],
+      "target": [0.31, -0.18, -0.26],
+      "fov_y_deg": 58
+    }
+  },
+  "retarget": {
+    "scale": 1.0,
+    "head_above_shoulder_m": 0.22,
+    "forward_bias_m": 0.05,
+    "workspace_min": [0.12, -0.5, -0.55],
+    "workspace_max": [0.62, 0.08, 0.08]
+  },
+  "pour_roll_deg": 65.0,
+  "lift_m": 0.11,
+  "gripper_open_deg": -10.0,
+  "gripper_closed_deg": 35.0,
+  "image_width": 160,
+  "image_height": 120
+}

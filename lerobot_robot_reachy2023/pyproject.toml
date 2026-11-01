@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lerobot_robot_reachy2023"
+version = "0.1.0"
+description = "LeRobot plugin for the Reachy 2023 robot (reachy-sdk, not Reachy 2)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["lerobot_robot_reachy2023*"]
